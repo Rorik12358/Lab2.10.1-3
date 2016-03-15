@@ -13,6 +13,7 @@ public class Main {
         }
         catch (RuntimeException e){
             System.out.println("Invalid age");
+            System.out.println(e);
         }finally {
             System.out.println("final block");
         }

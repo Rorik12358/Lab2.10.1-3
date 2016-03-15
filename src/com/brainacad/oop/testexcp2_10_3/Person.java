@@ -30,7 +30,7 @@ public class Person {
     }
 
     public void setAge(int age) {
-        if(age > 120 || age < 1) throw new InvalidAgeException();  //add message - why you have to throw exception
+        if(age > 120 || age < 1) throw new InvalidAgeException("Your person have invalid age, lease try to put age between 1 and 120");  //add message - why you have to throw exception
         this.age = age;
     }
 }
